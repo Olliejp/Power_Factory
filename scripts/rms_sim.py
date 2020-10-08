@@ -120,8 +120,6 @@ for line in random.sample(LINES, NUMBER_OF_SAMPLES):
             print("Iteration: " + str(counter) + " of " + str(end) + " done")
             print("Time elapsed: " + str((time.time() - tick) / 60) + " minutes")
             counter += 1
-            # p, q = sim.get_all_loads_pq()
-            # print(p, "bla")
 
 # reset to base p and q loads
 sim.reset_loads_to_nominal()

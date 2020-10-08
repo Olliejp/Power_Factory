@@ -1,7 +1,8 @@
 # Powerfactory dynamic simulations code for IEEE 118 bus system
 
 ## Structure
- .
+
+    .
     ├── Modules/pfsim.py         # Modules to cover most powerfactory functionality regarding RMS simulations
     ├── Scripts/                 # Scripts utilising modules for specific simulation tasks
 
@@ -31,7 +32,7 @@
 
 ## Scripts
 
- .
+    .
     ├── rms_sim.py                   # runs multiple RMS simulations in a loop and saves simulation results to .csv
     ├── cct.py                       # calculates critical clearing time for each line in the system
     ├── accessing_elements.py        # returns elements of interest

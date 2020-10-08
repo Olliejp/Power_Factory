@@ -54,7 +54,7 @@ for line in random.sample(lines,NUMBER_OF_SAMPLES+1):
 
         sim.run_dynamic_sim()
 
-        # get results no wind
+        # get results no wind - FOR CLEANER CODE USE DICTIONARY
         t, G1 = sim.get_dynamic_results(
             'Gen 10.ElmSym', 's:outofstep')
         _, G2 = sim.get_dynamic_results(

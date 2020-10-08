@@ -30,7 +30,7 @@
 - **run_loadflow**: executes power flow calculation
 - **get_bus_voltages**: returns all bus voltages following power flow calculation
 
-## Scripts
+## Example scripts
 
     .
     ├── rms_sim.py                   # runs multiple RMS simulations in a loop and saves simulation results to .csv
